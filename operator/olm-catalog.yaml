@@ -1,0 +1,14 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  generation: 1
+  name: kubernetes-mpi-operator-catalog
+  namespace: operators
+spec:
+  displayName: kubernetes-mpi-operator
+  image: docker.io/crisarias/kubernetes-mpi-operator-catalog:v0.0.1
+  publisher: crisarias
+  sourceType: grpc
+  updateStrategy:
+    registryPoll: 
+      interval: 0m30s
