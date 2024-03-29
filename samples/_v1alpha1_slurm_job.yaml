@@ -1,0 +1,14 @@
+apiVersion: crisarias.com/v1alpha1
+kind: MpiJob
+metadata:
+  labels:
+    app.kubernetes.io/name: mpijob
+    app.kubernetes.io/instance: mpijob-instance
+    app.kubernetes.io/part-of: kubernetes-mpi-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: kubernetes-mpi-operator
+  name: mpijob
+spec:
+  jobName: "slurmJob"
+  clusterName: "poas"
+  command: git clone https://github.com/Crisarias/kubernetes-mpi-operator-samples && cd mpi-examples/mpi-hello-world/code && make && srun -n 105 ./mpi_hello_world > result.txt

@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/created-by: kubernetes-mpi-operator
   name: barvacluster
 spec:
-  # TODO(user): Add fields here
   clusterName: "barva"
   clusterNodeImage: "docker.io/crisarias/mpicluster-openmpi-operator-base:latest"
   clusterNodesCount: 8
@@ -19,6 +18,3 @@ spec:
   sshExternalPort: 22
   localVolumePath: "/mnt/beegfs"
   localVolumeCapacity: 250
-
-
-

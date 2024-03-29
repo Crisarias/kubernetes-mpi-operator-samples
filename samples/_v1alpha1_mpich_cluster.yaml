@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/created-by: kubernetes-mpi-operator
   name: irazucluster
 spec:
-  # TODO(user): Add fields here
   clusterName: "irazu"
   clusterNodeImage: "docker.io/crisarias/mpicluster-mpich-operator-base:latest"
   clusterNodesCount: 8
@@ -19,6 +18,3 @@ spec:
   sshExternalPort: 22
   localVolumePath: "/mnt/beegfs"
   localVolumeCapacity: 250
-
-
-
