@@ -6,7 +6,7 @@ metadata:
   namespace: operators
 spec:
   displayName: kubernetes-mpi-operator
-  image: docker.io/crisarias/kubernetes-mpi-operator-catalog:v0.0.2
+  image: docker.io/crisarias/kubernetes-mpi-operator-catalog:v0.0.1
   publisher: crisarias
   sourceType: grpc
   updateStrategy:
