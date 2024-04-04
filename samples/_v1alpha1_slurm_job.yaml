@@ -7,8 +7,8 @@ metadata:
     app.kubernetes.io/part-of: kubernetes-mpi-operator
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/created-by: kubernetes-mpi-operator
-  name: mpijob
+  name: slurmJob
 spec:
   jobName: "slurmJob"
   clusterName: "poas"
-  command: git clone https://github.com/Crisarias/mpich-examples && cd mpi-examples/mpi-hello-world/code && make && srun -n 105 ./mpi_hello_world > result.txt
+  command: git clone https://github.com/Crisarias/mpich-examples && cd mpich-examples/mpi-hello-world/code && make && srun -n 105 ./mpi_hello_world > result.txt
