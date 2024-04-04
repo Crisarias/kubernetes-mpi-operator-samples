@@ -11,4 +11,4 @@ metadata:
 spec:
   jobName: "mpichJob"
   clusterName: "irazu"
-  command: git clone https://github.com/Crisarias/kubernetes-mpi-operator-samples && cd mpi-examples/mpi-hello-world/code && make && mpirun -np 120 ./mpi_hello_world > result.txt
+  command: git clone https://github.com/Crisarias/mpich-examples && cd mpi-examples/mpi-hello-world/code && make && mpirun -np 120 ./mpi_hello_world > result.txt

@@ -29,7 +29,7 @@ operator-sdk olm uninstall --version v0.27.0
 operator-sdk olm install --version v0.27.0
 ```
 
-2. Clone project and cd in folder `git clone https://github.com/Crisarias/kubernetes-mpi-operator-samples && cd kubernetes-mpi-operator-samples/operators`
+2. Clone project and cd in folder `git clone https://github.com/Crisarias/kubernetes-mpi-operator-samples && cd kubernetes-mpi-operator-samples/operator`
 
 2. Install Kubernetes-mpi-operator catalog `kubectl apply -f olm-catalog.yaml`
 
