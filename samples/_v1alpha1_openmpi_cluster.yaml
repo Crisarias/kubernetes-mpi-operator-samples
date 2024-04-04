@@ -17,4 +17,4 @@ spec:
   sshPort: 22
   sshExternalPort: 22
   localVolumePath: "/mnt/beegfs"
-  localVolumeCapacity: 250
+  localVolumeCapacity: 500
