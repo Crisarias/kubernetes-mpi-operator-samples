@@ -7,8 +7,8 @@ metadata:
     app.kubernetes.io/part-of: kubernetes-mpi-operator
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/created-by: kubernetes-mpi-operator
-  name: openmpiJob
+  name: openmpijob
 spec:
-  jobName: "openmpiJob"
+  jobName: "openmpijob"
   clusterName: "barva"
   command: git clone https://github.com/Crisarias/mpich-examples && cd mpi-examples/mpich-hello-world/code && make && mpirun -hostfile /nfs/hosts.openmpi -n 120 ./mpi_hello_world > result.txt
