@@ -72,5 +72,5 @@ rm -r -f /nfs/mpitutorial && cd /nfs && git clone https://github.com/mpitutorial
 
 3. Execute
 ```
-mpi run -n 120 ./mpi_hellow_world
+mpirun -np 120 ./mpi_hellow_world
 ```
