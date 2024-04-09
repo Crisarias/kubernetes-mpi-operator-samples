@@ -14,8 +14,6 @@ spec:
   clusterNodesCount: 3
   coresPerNode: 3
   memoryPerNode: 2000
-  useHostNetwork: false
   sshPort: 22
-  sshExternalPort: 22
   localVolumePath: "/mnt/beegfs"
   localVolumeCapacity: 500
