@@ -37,7 +37,7 @@ operator-sdk olm install --version v0.27.0
 
 4. Install subscription `kubectl apply -f olm-subscription.yaml`
 
-5. Wait until install plan is created and complted `kubectl get InstallPlan -n operators -o yaml`
+5. Wait until install plan is created and complted `kubectl get InstallPlan -n operators --watch`
 
 6. Review Controller for operator is created `kubectl get pods -n operators`
 
