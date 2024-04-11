@@ -11,11 +11,9 @@ metadata:
 spec:
   clusterName: "irazu"
   clusterNodeImage: "docker.io/crisarias/mpicluster-mpich-operator-base:latest"
-  clusterNodesCount: 8
+  clusterNodesCount: 2
   coresPerNode: 15
   memoryPerNode: 30000
-  useHostNetwork: false
   sshPort: 22
-  sshExternalPort: 22
   localVolumePath: "/mnt/beegfs"
   localVolumeCapacity: 500

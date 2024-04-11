@@ -56,6 +56,8 @@ kubectl logs kubernetes-mpi-operator-controller-manager-<hash> -n operators
 
 3. Watch for pods initialization `kubectl get pods -n irazu-ns --watch`
 
+4. Inspects last pod to see everything is ok `kubectl logs irazu-sts-1 -n irazu-ns`
+
 ### Test Cluster
 
 1. Exec into cluster
