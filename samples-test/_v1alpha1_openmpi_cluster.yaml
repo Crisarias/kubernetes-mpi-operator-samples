@@ -11,9 +11,9 @@ metadata:
 spec:
   clusterName: "barva"
   clusterNodeImage: "docker.io/crisarias/mpicluster-openmpi-operator-base:latest"
-  clusterNodesCount: 3
-  coresPerNode: 3
+  clusterNodesCount: 2
+  coresPerNode: 4
   memoryPerNode: 2000
   sshPort: 22
-  localVolumePath: "/mnt/beegfs"
-  localVolumeCapacity: 500
+  localVolumePath: "/nfs"
+  localVolumeCapacity: 25

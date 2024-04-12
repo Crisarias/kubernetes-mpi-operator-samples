@@ -11,4 +11,4 @@ metadata:
 spec:
   jobName: "slurmjob"
   clusterName: "poas"
-  command: git clone https://github.com/Crisarias/mpich-examples && cd mpich-examples/mpi-hello-world/code && make && srun -n 105 ./mpi_hello_world > result.txt
+  command: source ~/.bashrc && git clone https://github.com/Crisarias/mpich-examples && cd mpich-examples/mpi-hello-world/code && make && srun -n 105 ./mpi_hello_world > /nfs/result.txt
