@@ -11,14 +11,14 @@ metadata:
 spec:
   clusterName: "barva"
   clusterNodeImage: "docker.io/crisarias/mpicluster-openmpi-conda-operator-base:latest"
-  clusterNodesCount: 2
-  coresPerNode: 1
-  memoryPerNode: 14000
+  clusterNodesCount: 4
+  coresPerNode: 4
+  memoryPerNode: 60000
   sshPort: 22
   localVolumePath: "/mnt/beegfs"
-  localVolumeCapacity: 100
+  localVolumeCapacity: 500
   enableNvidiaGPU: true
   numGPUs: 1
-  nameGPUs: NVIDIA-A16-4Q
+  nameGPUs: NVIDIA-A16-16Q
 
 
