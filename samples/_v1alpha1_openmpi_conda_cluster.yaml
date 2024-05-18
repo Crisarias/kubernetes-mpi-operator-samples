@@ -13,7 +13,7 @@ spec:
   clusterNodeImage: "docker.io/crisarias/mpicluster-openmpi-conda-operator-base:latest"
   clusterNodesCount: 4
   coresPerNode: 2
-  memoryPerNode: 60000
+  memoryPerNode: 58000
   sharedMemoryPerNode: 2000
   sshPort: 22
   localVolumePath: "/mnt/beegfs"
