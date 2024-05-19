@@ -20,6 +20,6 @@ spec:
   localVolumeCapacity: 500
   enableNvidiaGPU: true
   numGPUs: 1
-  nameGPUs: NVIDIA-A16-16Q
+  nameGPUs: GRID-A100D-3-40C-MIG-3g.40gb
 
 
